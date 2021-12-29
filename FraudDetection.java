@@ -1,5 +1,5 @@
 public class FraudDetection {
-	/**	Swap the elements specified in the array.
+	/** Swap the elements specified in the array.
 	 * 
 	 * @param arr: Array containing the elements.
 	 * @param a: Element to be swapped in array.
@@ -11,7 +11,7 @@ public class FraudDetection {
 		arr[b] = temp;
 	}
 	
-	/**	Sort the array.
+	/** Sort the array.
 	 * 
 	 * @param arr: Array containing the elements.
 	 */
@@ -53,10 +53,10 @@ public class FraudDetection {
 
 	/** Partitions an array. Pivot is the median value.
 	 *	
-	 *	@param arr: Potential array entries to be used as a pivot.
-	 *	@param first: First element of the array.
-	 *	@param last: Last element of the array.
-	 *	@return: Index of the pivot.
+	 * @param arr: Potential array entries to be used as a pivot.
+	 * @param first: First element of the array.
+	 * @param last: Last element of the array.
+	 * @return: Index of the pivot.
 	 */
 	private static int partition(int[] arr, int first, int last) {
 	   int mid = first + (last - first) / 2;
@@ -87,7 +87,7 @@ public class FraudDetection {
 	   return last;
 	}
 
-	/**	Find the key's index.
+	/** Find the key's index.
 	 *	
 	 * @param arr: Array containing the elements.
 	 * @param key: The element to be found.
@@ -115,7 +115,7 @@ public class FraudDetection {
    		return low;
 	}
 
-	/**	Determines the number of notifications received over d days.
+	/** Determines the number of notifications received over d days.
 	 *
 	 * @param dailyExpendituresL The daily expenditure of a client. 
 	 * @param d: The number of trailing days (minimum data of spending habits).
